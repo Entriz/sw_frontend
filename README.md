@@ -18,8 +18,10 @@ For more information, visit [DWoC](https://dwoc.io/)
 ## Installation
 
 ### Requirements
+- [Flutter](https://flutter.dev/docs/get-started/install)
 - [JDK-11](https://linuxize.com/post/install-java-on-ubuntu-20-04/)
 - IDE - Intellij IDEA (Optional)
+- Code Editor - Visual Studio Code
 
 ### Setup
 1. Fork and clone the repository: `git clone https://github.com/<YOUR-USERNAME>/sw_frontend`
