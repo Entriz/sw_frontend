@@ -1,6 +1,7 @@
-import 'package:sw_frontend/theme/custom_theme.dart';
-import 'package:sw_frontend/ui/home_page.dart';
+import 'package:sw_frontend/bindings/home_binding.dart';
+
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,10 +10,10 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
+
   @override
-  Widget build(BuildContext context) => MaterialApp(
-      title: 'SW Clone',
-      theme: CustomTheme.theme,
-      home: const HomePage(title: 'SW Clone'),
+  Widget build(BuildContext context) => GetMaterialApp(
+      initialBinding: HomeBindings(),
+      title: 'SW Frontend',
     );
 }
