@@ -4,7 +4,7 @@
 - [Installation](#installation)
 
 ## Introduction
-Frontend for a Splitwise Clone(https://github.com/avikumar15/AutoMate). 
+Frontend for a Splitwise Clone(https://github.com/Entriz/sw_backend). 
 
 ### Getting started
 See the Guide on how to contribute [here](CONTRIBUTING.md) for instructions on how to fork and set up your repository. Refer [here](CODE_OF_CONDUCT.md) for code of conduct.
