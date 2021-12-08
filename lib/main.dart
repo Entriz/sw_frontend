@@ -10,11 +10,9 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context) => MaterialApp(
       title: 'SW Clone',
       theme: CustomTheme.theme,
       home: const HomePage(title: 'SW Clone'),
     );
-  }
 }
