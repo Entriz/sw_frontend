@@ -6,8 +6,7 @@ class HomePage extends StatelessWidget {
   final String title;
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
+  Widget build(BuildContext context) => Scaffold(
       appBar: AppBar(
         title: Text(title),
       ),
@@ -15,5 +14,4 @@ class HomePage extends StatelessWidget {
         child: Text('This is our SW App'),
       ),
     );
-  }
 }
